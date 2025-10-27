@@ -28,7 +28,7 @@ class Qmk < Formula
   depends_on "osx-cross/arm/arm-none-eabi-gcc@8"
   depends_on "osx-cross/avr/avr-gcc@8"
   depends_on "pillow"
-  depends_on "python"
+  depends_on "python@3.13"
   depends_on "teensy_loader_cli"
 
   on_arm do
